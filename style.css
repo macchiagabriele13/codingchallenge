@@ -1,0 +1,115 @@
+body,html{
+  display:-webkit-flex;
+  display:-moz-flex;
+  display:-ms-flex;
+  display:flex;
+  -webkit-justify-content:center;
+  justify-content:center;
+  -webkit-align-items:center;
+  align-items:center;
+  }
+
+.bg{
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contenitore{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  width: 950px;
+  margin-top: 20px;
+}
+
+.contenitore2{
+  padding: 80px 100px;
+}
+
+.logolime{
+  display: flex;
+}
+
+.logo{
+  width: 200px;
+  margin: auto;
+  margin-bottom: 0px;
+}
+
+.sottotitolo{
+  text-align: center;
+  font-size:30px;
+  color:limegreen;
+  margin:0px;
+}
+
+.lineatitolo{
+  display: inline-block;
+  margin: 0px;
+}
+
+.bottoni{
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  background-color: limegreen;
+}
+
+h2{
+  margin-bottom: 1px;
+  font-family: Poppins,Helvetica,sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+
+.via{
+  margin: 0px;
+  margin-bottom: 1px;
+  font-family:Poppins,Helvetica,sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 15px;
+  display: inline-block;
+}
+
+#carica{
+  margin: 0px;
+  margin-bottom: 0px;
+  font-family:Poppins,Helvetica,sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 15px;
+}
+
+
+.percorso{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.material-symbols-outlined{
+  display: inline-block;
+  color:white;
+  font-size: 10px;
+}
+
+.barra{
+  background-color: orange;
+  border-radius: 5px;
+  height: 30px;
+  width: 45%;
+}
+
+.barra2{
+  background-color: limegreen;
+  border-radius: 5px;
+  height: 30px;
+  width: 85%;
+}
+
+.barra3{
+  background-color: red;
+  border-radius: 5px;
+  height: 30px;
+  width: 15%;
+}
